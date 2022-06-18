@@ -1,0 +1,42 @@
+footer{
+  height: 256px;
+  background-color: #0C0D0D;
+  color: white;
+  padding: 1rem 7rem;
+  font-size: 1rem;
+  display: grid;
+}
+footer h2{
+  font-size: 24px;
+  color: #E11383;
+}
+.iconpink{
+  height: 18px;
+  margin: 8px 0;
+}
+.conteiner{
+  display: flex;
+}
+.divmenor{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 200px;
+  margin-right: 99px;
+}
+.divmenor a{
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+
+  display: flex;
+  align-items: center;
+  
+}
+.divmenor p{
+  margin-bottom: 16px;
+}
+.contact{
+  height: 18px;
+  margin-right: 7px;
+}

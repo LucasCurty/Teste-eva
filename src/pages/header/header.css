@@ -1,0 +1,117 @@
+
+header nav{
+  background-color: black;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 7rem;
+  height: 64px;
+  font-weight: 100;
+
+  position: relative;
+  z-index: 1;
+}
+nav > img {
+  width: 80px;
+}
+header nav .categorias{
+  display: flex;
+  align-items: center;
+}
+header nav .categorias button{
+  padding-right: 1.5rem;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.categorias #busca{
+  position: relative;
+}
+.categorias #busca > img{
+  position: absolute;
+  height: 16px;
+  right: 6px;
+  top: 6px;
+}
+
+#category{
+  position: absolute;
+  margin-top: 8px;
+  top: 50px;
+  width: 167px;
+  height: 140px;
+  border-radius: 5px;
+  background-color: white;
+  list-style: none;
+}
+#category a{
+  text-decoration: none;
+  font-size: 1rem;
+}
+#category a li{
+  color: #000000;
+  padding: 7px;
+  border: 0.5px solid rgba(128, 128, 128, 0.192);
+}
+.MeuCarrinho a{
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+.MeuCarrinho a > img{
+  margin: 0 10px;
+}
+header nav .input_busca{
+  width: 450px;
+  padding: 4px;
+  border-radius: 7px;
+  background-image: url();
+}
+header .background{
+  width: 1413px;
+  height: 375px;
+  color: white;
+  background-position: 50% 30%;
+  background-size: 115%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 7rem;
+  transform: rotate(-2deg);
+  margin-top: -2rem;
+}
+header .background > h1{
+  font-size: 3rem;
+  transform: rotate(2deg);
+
+}
+header .background > p{
+  transform: rotate(2deg);
+
+  font-size: 1.5rem;
+}
+header .icones_vantagens{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 205px;
+}
+header .icones_vantagens .icone_imagens {
+  text-align: center;
+}
+header .icones_vantagens .icone_imagens img{
+  height: 50px;
+  color: pink;
+}
+header .icones_vantagens .icone_imagens p{
+  color: #E11383;
+}
+header .cartao{
+  margin-left: 178px;
+  margin-right: 230px;
+}

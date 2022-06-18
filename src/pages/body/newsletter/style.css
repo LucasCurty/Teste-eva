@@ -1,0 +1,55 @@
+.sectionNews{
+  height: 352px;
+  background-color: #3C3E40;
+  display: grid;
+}
+.newsletter{
+  width: 570px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.newsletter img{
+  width: 48.6px;
+  height: 39.38px;
+}
+
+
+.newsletter .inputs{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 2rem;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form .inputs input{
+  width: 278px;
+  padding:5px;
+  border-radius: 5px;
+  margin: 0 18px;
+}
+.form  button{
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #E11383;
+  cursor: pointer;
+}
+
+.email{
+  position: absolute;
+  left: 53%;
+  top: -21px;
+
+}
+.inputColor{
+  color: #E11383;
+}

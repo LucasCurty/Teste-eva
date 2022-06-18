@@ -1,0 +1,39 @@
+section h1{
+  margin: 1rem 7rem;
+  font-size: 24px;
+  font-weight: 700;
+}
+.itemsList{
+  max-width: 1336px;
+  margin: 0 auto;
+  margin: 1rem 7rem;
+
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+
+  
+}
+.itemsList::-webkit-scrollbar{
+  display: none;
+}
+#List{
+  position: relative;
+}
+.left, .right{
+  position: absolute;
+  font-size: 3rem;
+  background-color: transparent;
+  border: none;
+  font-weight: 400;
+  color: #E11383;
+  cursor: pointer;
+}
+.left{
+  top: 50%;
+  left: 4%;
+}
+.right{
+  top: 50%;
+  right: 4%;
+}

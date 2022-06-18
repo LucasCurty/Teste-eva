@@ -1,0 +1,19 @@
+
+main .categorias{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 7rem;
+}
+main .categorias div img{
+  width: 230px;
+  height: 256px;
+  object-fit: cover;
+}
+main .categorias div p{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  margin-top: -2.8rem;
+}
