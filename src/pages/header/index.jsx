@@ -17,36 +17,38 @@ export default function Header(){
   return(
     <header>
       <nav>
-        <img  src={Logo} alt="Logo da pagina" />
-        <div className='categorias'>
-          <button onClick={()=>{setShowMenu(!showMenu)}}> Categorias <img width="14" src={SetaCategorias} alt="icon seta" /></button> 
-          {showMenu &&
-            <ul id='category'>
-              <a href="#">
-                <li > Livros</li>
+        <div className='allNav'>
+          <img  src={Logo} alt="Logo da pagina" />
+          <div className='categorias'>
+            <button onClick={()=>{setShowMenu(!showMenu)}}> Categorias <img width="14" src={SetaCategorias} alt="icon seta" /></button> 
+            {showMenu &&
+              <ul id='category'>
+                <a href="#">
+                  <li > Livros</li>
+                </a>
+                <a href="#">
+                  <li > Escritório</li>
+                </a>
+                <a href="#">
+                  <li > Vestuário</li>
+                </a>
+                <a href="#">
+                  <li> Informática</li>
+                </a>
+              </ul>
+            }
+            <div id="busca">
+              <input type="search" className='input_busca' />
+              <img src={BuscaSVG} alt="icone de busca" />
+            </div>
+            <div className='MeuCarrinho'>
+              <a href='#'>Minha conta 
+                <img height={16}  src={UsuarioSVG} alt="icone de usuario" />
               </a>
-              <a href="#">
-                <li > Escritório</li>
+              <a href='#'>Carrinho (2)
+                <img height={16} src={CarrinhoSVG} alt="icone de busca" />
               </a>
-              <a href="#">
-                <li > Vestuário</li>
-              </a>
-              <a href="#">
-                <li> Informática</li>
-              </a>
-            </ul>
-          }
-          <div id="busca">
-            <input type="search" className='input_busca' />
-            <img src={BuscaSVG} alt="icone de busca" />
-          </div>
-          <div className='MeuCarrinho'>
-            <a href='#'>Minha conta 
-              <img height={16}  src={UsuarioSVG} alt="icone de usuario" />
-            </a>
-            <a href='#'>Carrinho (2)
-              <img height={16} src={CarrinhoSVG} alt="icone de busca" />
-            </a>
+            </div>
           </div>
         </div>
       </nav>

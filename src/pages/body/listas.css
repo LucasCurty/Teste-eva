@@ -4,15 +4,12 @@ section h1{
   font-weight: 700;
 }
 .itemsList{
-  max-width: 1336px;
+  width: 90%;
   margin: 0 auto;
-  margin: 1rem 7rem;
 
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
-
-  
 }
 .itemsList::-webkit-scrollbar{
   display: none;
