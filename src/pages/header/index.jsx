@@ -1,11 +1,5 @@
 import Logo from '../../assets/images/logo.png';
-import UsuarioSVG from '../../assets/icons/usuario.svg';
-import CarrinhoSVG from '../../assets/icons/carrinho.svg';
-import CadeadoSVG from '../../assets/icons/cadeado.svg';
-import CaminhaoSVG from '../../assets/icons/caminhao.svg';
-import CartaoSVG from '../../assets/icons/cartao.svg';
-import BuscaSVG from '../../assets/icons/busca.svg';
-import SetaCategorias from '../../assets/icons/seta-categorias.svg'
+import {Usuario, Carrinho, Cadeado, Caminhao, Cartao, Busca, SetaCategorias} from '../../assets/icons/'
 import Banner from '../../assets/images/banner.jpeg'
 
 import './header.css'
@@ -39,14 +33,14 @@ export default function Header(){
             }
             <div id="busca">
               <input type="search" className='input_busca' />
-              <img src={BuscaSVG} alt="icone de busca" />
+              <img src={Busca} alt="icone de busca" />
             </div>
             <div className='MeuCarrinho'>
               <a href='#'>Minha conta 
-                <img height={16}  src={UsuarioSVG} alt="icone de usuario" />
+                <img height={16}  src={Usuario} alt="icone de usuario" />
               </a>
               <a href='#'>Carrinho (2)
-                <img height={16} src={CarrinhoSVG} alt="icone de busca" />
+                <img height={16} src={Carrinho} alt="icone de busca" />
               </a>
             </div>
           </div>
@@ -55,18 +49,19 @@ export default function Header(){
       <div className='background' style={{backgroundImage:`url(${Banner})`}}>
         <h1>Seu livros favoritos</h1>
         <p>estão te esperando aqui!</p>
+      <div className='rotate'></div>
       </div>
       <div className='icones_vantagens'>
         <div className='icone_imagens'>
-          <img src={CadeadoSVG} alt="icone do cadeado" color='red'/>
+          <img src={Cadeado} alt="icone do cadeado" color='red'/>
           <p>Site seguro</p>
         </div>
         <div className='icone_imagens cartao'>
-          <img  src={CartaoSVG} alt="icone do cartao" />
+          <img  src={Cartao} alt="icone do cartao" />
           <p>Até 12x sem juros</p>
         </div>
         <div className='icone_imagens'>
-          <img src={CaminhaoSVG} alt="icone do caminhao" />
+          <img src={Caminhao} alt="icone do caminhao" />
           <p>Entrega para todo o Brasil</p>
         </div>
       </div>

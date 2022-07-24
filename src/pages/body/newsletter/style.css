@@ -23,6 +23,7 @@
   flex-direction: row;
   position: relative;
   margin: 2rem;
+  user-select: text;
 }
 .form{
   display: flex;

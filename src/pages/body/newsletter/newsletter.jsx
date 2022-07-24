@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import MailSVG from '../../../assets/icons/newsletter.svg'
+import {Email} from '../../../assets/icons/'
 
 import './style.css'
 
@@ -46,7 +46,7 @@ useEffect(()=>{
   return(
     <section className='sectionNews'>
       <div className='newsletter'>
-        <img src={MailSVG} alt="newsletter" />
+        <img src={Email} alt="newsletter" />
         <h2>Receba nossas novidades, descontos e muito mais</h2>
         <form  action="" className='form'>
           <div className='inputs'>

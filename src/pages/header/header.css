@@ -74,7 +74,6 @@ header nav .input_busca{
   width: 450px;
   padding: 4px;
   border-radius: 7px;
-  background-image: url();
 }
 header .background{
   min-width: 1413px;
@@ -88,18 +87,17 @@ header .background{
   flex-direction: column;
   justify-content: center;
   padding: 0 7rem;
-  transform: rotate(-2deg);
   margin-top: -2rem;
+
+  position: relative;
+  z-index: -2;
 }
 header .background > h1{
   margin-top: 2rem;
   font-size: 3rem;
-  transform: rotate(2deg);
 
 }
 header .background > p{
-  transform: rotate(2deg);
-
   font-size: 1.5rem;
 }
 header .icones_vantagens{
@@ -121,6 +119,17 @@ header .icones_vantagens .icone_imagens p{
 header .cartao{
   margin-left: 178px;
   margin-right: 230px;
+}
+header .rotate{
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  bottom: -135px;
+  left: 0;
+  z-index: -1;
+
+  transform: rotate(-3deg);
 }
 
 @media (max-width:1260px) {
